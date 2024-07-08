@@ -2,5 +2,13 @@
 
 
 ## 1. 실행환경 
-- Ubuntu 18.04 LTS버전, ROS-melodic, python2.7.17, tensorflow 2.1.0, numpy 1.16.4, keras 2.3.1, Anaconda 3
-- Ubuntu 22.04, ROS2-humble, python 3.9, tensorflow 2.1.0, numpy 1.16.6, keras 2.3.1, Gazebo9
+- Ubuntu 20.04 LTS, ROS1-noetic
+  
+## 2. Hardware 스펙
+model : turtlebot3 waffle_pi, Size (L x W x H)=281mm x 306mm x 141mm, Weight=1.8kg
+SBC (Single Board Computers) : 라즈베리파이
+LDS(Laser Distance Sensor) : 360 Laser Distance Sensor LDS-02
+IMU센서 : 3축 자이로 센서, 3축 가속도 센서, 3축 지자계 센서, 라즈베리 파이 카메라, 360도 LiDAR
+
+
+  
