@@ -27,7 +27,28 @@ IMU센서 : 3축 자이로 센서, 3축 가속도 센서, 3축 지자계 센서,
         $ chmod 755 ./install_ros_noetic.sh 
         $ bash ./install_ros_noetic.sh
         </code>
-
+    </pre>
+    + 종속 ROS 패키지 설치</br>
+    <pre>
+        <code>
+        $ sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
+        ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
+        ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
+        ros-noetic-rosserial-python ros-noetic-rosserial-client \
+        ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
+        ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
+        ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
+        ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+        </code>
+    </pre>
+    + 종속 ROS 패키지 설치</br>
+    <pre>
+        <code>
+        $ sudo apt install ros-noetic-dynamixel-sdk
+        $ sudo apt install ros-noetic-turtlebot3-msgs
+        $ sudo apt install ros-noetic-turtlebot3
+        </code>
+        
 ## 3. SLAM
 SLAM (Simultaneous Localization and Mapping)은 로봇이 주변 환경의 지도를 생성하면서 동시에 자신의 위치를 추정하는 기술
 -> 이를 통해 로봇은 이전에 방문하지 않은 환경에서도 자율적으로 이동가능
