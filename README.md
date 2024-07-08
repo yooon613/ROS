@@ -21,11 +21,11 @@ IMU센서 : 3축 자이로 센서, 3축 가속도 센서, 3축 지자계 센서,
     + 원격 PC에 ROS 설치</br>
     <pre>
         <code>
-            $ sudo apt update
-            $ sudo apt upgrade
-            $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
-            $ chmod 755 ./install_ros_noetic.sh 
-            $ bash ./install_ros_noetic.sh
+        $ sudo apt update
+        $ sudo apt upgrade
+        $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+        $ chmod 755 ./install_ros_noetic.sh 
+        $ bash ./install_ros_noetic.sh
         </code>
 
 ## 3. SLAM
