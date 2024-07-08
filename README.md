@@ -48,10 +48,8 @@ IMU센서 : 3축 자이로 센서, 3축 가속도 센서, 3축 지자계 센서,
         $ sudo apt install ros-noetic-turtlebot3-msgs
         $ sudo apt install ros-noetic-turtlebot3
         </code>
-    </pre>
+    
     + 네트워크 구성</br>
-    <pre>
-
     
       ![Screenshot from 2024-07-08 17-13-28](https://github.com/yooon613/ROS/assets/124541123/15f5eb1e-d82b-4454-8e15-557a84911624)
 
