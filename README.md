@@ -14,6 +14,20 @@ IMU센서 : 3축 자이로 센서, 3축 가속도 센서, 3축 지자계 센서,
 
 ![Screenshot from 2024-07-08 16-43-14](https://github.com/yooon613/ROS/assets/124541123/40377f1a-ab2e-4eb1-985d-76f6c1cef767)
 
+## 3. install
++ remote PC</br>
+    + ROS 1 [Link](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)를 통해 설치한다.
+
+    + 원격 PC에 ROS 설치</br>
+    <pre>
+        <code>
+            $ sudo apt update
+            $ sudo apt upgrade
+            $ wget https://raw.githubusercontent.com/ROBOTIS-GIT/robotis_tools/master/install_ros_noetic.sh
+            $ chmod 755 ./install_ros_noetic.sh 
+            $ bash ./install_ros_noetic.sh
+        </code>
+
 ## 3. SLAM
 SLAM (Simultaneous Localization and Mapping)은 로봇이 주변 환경의 지도를 생성하면서 동시에 자신의 위치를 추정하는 기술
 -> 이를 통해 로봇은 이전에 방문하지 않은 환경에서도 자율적으로 이동가능
